@@ -1,0 +1,158 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333; /* Dark background for the band theme */
+}
+
+.navbar-brand {
+    color: #fff; /* White color for brand */
+    font-size: 1.75rem; /* Larger font size for better visibility */
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White color for links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    font-size: 2.5rem; /* Larger heading for prominence */
+    color: #fff; /* White color for text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Darker shadow for better readability */
+}
+
+.carousel-caption p {
+    font-size: 1.5rem;
+    color: #fff; /* White color for text */
+}
+
+/* About Section */
+section#about p {
+    color: #333;
+}
+
+/* Card Styling */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff; /* Background color for cards */
+}
+
+.card-img-top {
+    border-bottom: 1px solid #ddd; /* Border between image and card content */
+}
+
+.card-body {
+    background-color: #fafafa;
+}
+
+.card-title {
+    color: #8b572a; /* Band's theme color */
+    font-size: 1.25rem; /* Slightly larger font size */
+}
+
+.card-text {
+    color: #666;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* Dark background for footer */
+    color: #fff; /* White color for text */
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Form */
+.form-control {
+    border-color: #ddd;
+    background-color: #fff;
+}
+
+.btn-primary {
+    background-color: #8b572a; /* Band's theme color */
+    border-color: #8b572a;
+}
+
+.btn-primary:hover {
+    background-color: #704d28; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 0.875rem;
+    }
+
+    .carousel-item img {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.75rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1.25rem;
+    }
+
+    .card {
+        margin-bottom: 1rem; /* Reduce margin for small screens */
+    }
+}
+
+/* For Mobile Devices */
+@media (max-width: 576px) {
+    .navbar-nav .nav-link {
+        font-size: 0.75rem;
+    }
+
+    .carousel-item img {
+        height: 200px; /* Further reduce height for mobile screens */
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .card {
+        margin-bottom: 0.5rem; /* Further reduce margin for mobile screens */
+    }
+
+    .form-control {
+        font-size: 0.875rem;
+    }
+
+    .btn-primary {
+        font-size: 0.875rem;
+    }
+}
